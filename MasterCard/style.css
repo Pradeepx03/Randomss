@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.card{
+    background-color: black;
+    margin: auto;
+    margin-top: 200px;
+    height: 280px;
+    width: 460px;
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+}
+.card p{
+    color: white;
+}
+
+.top{
+    margin-top: 20px;
+    width: inherit;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.logo{
+    margin-left: 13px;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+#lg{
+    height: 60px;
+    width: 90px; 
+    background-image: url(Assets/logo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-color: aliceblue; */
+}
+.logo p{
+    font-size: 18px;
+    font-weight: 600;
+}
+#sim{
+    margin-right: 25px;
+    height: 50px;
+    width: 60px;
+    background-image: url(Assets/sim.jpg);
+    background-size:  contain;
+    background-repeat: no-repeat;
+    /* background-color: gray; */
+}
+.mid{
+    margin-left: 25px;  
+    height: 100px;
+    /* background-color:thistle; */
+}
+#crdnmbr{
+    margin-top: 40px;
+    font-size: 17px;
+}
+#nmbr{
+    margin-top: 7px;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.val{
+    margin-right: 20px;
+}
+#valid{
+    font-size: 14px;
+}
+#date{
+    font-size: 20px;
+}
