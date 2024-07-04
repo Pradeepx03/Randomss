@@ -3,11 +3,13 @@
     padding: 0;
     font-family: "Noto Sans", sans-serif;
 }
-
+body{
+    height: 500px;
+}
 .card{
     background-color: black;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     height: 280px;
     width: 460px;
     border-radius: 33px;

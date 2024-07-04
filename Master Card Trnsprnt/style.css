@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", Sans-sarif;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    perspective: 1000px;
+}
+section, .shape, .card{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cardcontainer{
+    position: relative;
+    height: 225px;
+    width: 375px;
+    border-radius: 30px;
+    transform-style: preserve-3d;
+    transition: 3s;    
+}
+.cardcontainer:hover{
+    transform: rotateY(180deg);
+}
+.card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit; 
+    background-color: rgba(240, 255, 255, 0.1);
+    border: 1px solid rgba(223, 222, 222, 0.2);
+    box-shadow: 0 10px 40px black;
+    backdrop-filter: blur(5px);
+    backface-visibility: hidden;
+}
+.card.back-face{
+    transform: rotateY(180deg);
+}
+.shape{
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.425);
+   
+}
+p{
+    color: rgba(240, 248, 255, 0.473);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
